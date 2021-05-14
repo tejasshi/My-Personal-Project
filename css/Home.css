@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+/* Logo */
+#logoM {
+  margin-left: 20px;
+}
+
+#logoImg {
+  border-radius: 50%;
+}
+
+/* Pic */
+.pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/img6.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -2;
+}
+
+#navigation {
+  margin-left: auto;
+}
+
+/* login */
+.modal-header {
+  background: #212529 !important;
+  color: #fff;
+}
+
+.required:after {
+  content: "*";
+  color: red;
+}
+
+/* register btn */
+#register-btn {
+  margin-left: 5px;
+}
+
+/* cobver-heading-bold */
+.content {
+  position: absolute;
+  top: 30%;
+  left: 4%;
+}
+
+.content h1 {
+  margin-top: 50px;
+  float: left;
+  font-size: 90px;
+  line-height: 100px;
+  color: #fff;
+}
+
+/* footer */
+.footer {
+  background-color: #222;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  pad: 70px 0;
+}
+
+#footer-content {
+  margin-top: 10px;
+}
+
+#footer-services-heading {
+  margin-top: 4px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-col {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 14px;
+  color: #ffff;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fab {
+  width: 25px;
+}
+/*# sourceMappingURL=Home.css.map */

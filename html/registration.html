@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PlanetM Registration</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="../css/registration.css"/>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="../jquery/scripts/registration.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body class="bgimage">
+  <!-- Header -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="navcolor">
+    <div class="container-fluid">
+        
+        <a href="#"><img src="../images/Planet_Logo.png" id="logoImg" class="img-responsive" style="width: 50px;" alt=""></a>
+        <a href="#" class="navbar-brand" id="logoM">Welcome to PlanetM</a>
+        <ul class="navbar-nav" id="navigation">
+            <li><a href="../html/Home.html" class="nav-link">Home</a></li></ul>
+        <button type="button" data-toggle="collapse" data-target="#navbar-menu" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbar-menu">
+            <!-- <ul class="navbar-nav" id="navigation">
+                 <li><a href="#" class="nav-link">Home</a></li> 
+                <li><button type="button" class="btn btn-primary button" data-bs-toggle="modal" data-bs-target="#myModal">Login</button></li>
+                <li><button type="button" class="btn btn-primary button" id="register-btn" onclick="window.location.href='registration.html'">Sign-Up</button>
+                </li>
+               
+            </ul> -->
+
+        </div>
+   
+
+    </div>
+    
+</nav>
+
+<div class="container" id="containerdiv">
+    <form class="form-horizontal" role="form">
+        <img src="../images/Planet_Logo.png" id="logoimg"><br><br>
+        <!-- <h2>Registration</h2> -->
+        <div class="form-group">
+            <label for="name" class="col-sm-3 control-label">Name</label>
+            <div class="col-sm-9">
+                <input type="text" id="name" placeholder=" Name" class="form-control" autofocus>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email" class="col-sm-3 control-label">Email</label>
+            <div class="col-sm-9">
+                <input type="text" id="email" placeholder="Email" class="form-control" autofocus>
+            </div>
+        </div>
+       
+        <div class="form-group">
+            <label for="phoneNumber" class="col-sm-3 control-label">Phone number </label>
+            <div class="col-sm-9">
+                <input type="phoneNumber" id="mobile" placeholder="Phone number" class="form-control">
+                <span class="help-block">Your phone number won't be disclosed anywhere </span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="password" class="col-sm-3 control-label">Password*</label>
+            <div class="col-sm-9">
+                <input type="password" id="password" placeholder="Password" class="form-control">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="password" class="col-sm-3 control-label">Confirm Password*</label>
+            <div class="col-sm-9">
+                <input type="password" id="cpassword" placeholder="Password" class="form-control">
+            </div>
+        </div>
+       
+        <button type="button"  id="register" class="btn btn-primary btn-block">Register</button>
+    </form> <!-- /form -->
+</div> <!-- ./container -->
+
+<!-- footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <ul class="names" id="footer-content">
+                    <h4>planetM &copy; 2020-2021. All rights reserved</h4>
+                </ul>
+            </div>
+            <div class="footer-col">
+                    <div class="social-links">
+                        <h4 class="" id="footer-services-heading">Follow us</h4>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/"target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                       
+                    </div>
+            </div>
+            
+        </div>
+
+    </div>
+</footer>
+</body>
+</html>

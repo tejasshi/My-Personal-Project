@@ -1,0 +1,20 @@
+[
+    {
+          "name": "Lamborgini",
+          "artist": "Jassi Gill / Neha Kakkar",
+          "image": "../../images/song.jfif",
+          "path": "../../songs/Lamborghini.mp3"
+    },
+    {
+        "name": "Dynamite",
+        "artist": "BTS",
+        "image": "../../images/dynamite.jpg",
+        "path": "../../songs/Dynamite.mp3"
+  },
+  {
+    "name": "Nayan",
+    "artist": "Dhvani Bhanushali",
+    "image": "../../images/nayan.jfif",
+    "path": "../../songs/Nayan.mp3"
+}
+  ]

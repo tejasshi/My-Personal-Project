@@ -1,0 +1,99 @@
+#logoM {
+  margin-left: 20px;
+}
+
+button {
+  background-color: #0D6EFD !important;
+}
+
+#navcolor {
+  background-color: #212529 !important;
+}
+
+body {
+  background: url("../images/img6.jpg") fixed;
+  background-size: cover;
+}
+
+#logoimg {
+  border-radius: 50%;
+}
+
+*[role="form"] {
+  max-width: 50%;
+  padding: 5%;
+  margin: 0 auto;
+  border-radius: 0.3em;
+  background-color: lightgray;
+}
+
+*[role="form"] h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  margin-top: 2%;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+#containerdiv {
+  margin-top: 2%;
+}
+
+img {
+  width: 30%;
+  margin-left: 35%;
+}
+
+/* footer */
+.footer {
+  background-color: #222;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  pad: 70px 0;
+}
+
+#footer-content {
+  margin-top: 10px;
+}
+
+#footer-services-heading {
+  margin-top: 4px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-col {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 14px;
+  color: #ffff;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fab {
+  width: 25px;
+}
+/*# sourceMappingURL=registration.css.map */

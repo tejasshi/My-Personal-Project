@@ -1,0 +1,142 @@
+#logoImg {
+    border-radius: 50%;
+  }
+
+#profileimage{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.backgroundimg{
+    position:absolute;
+    
+    background-image: url('../images/img6.jpg');
+    height: 130vh;
+    width: 100%;
+    background-size: cover;  
+    background-position: center;
+    z-index: -2;
+    
+}
+#img {
+    border-radius: 0 0 5% 5%;
+    height: 120px;
+    width: 270px;
+  }
+
+#navigation{
+    float: right;
+}
+.grid-container{
+    
+        display: flex;
+        grid-template-columns: 100px 100px; 
+        grid-template-rows: 100px;
+        grid-column-gap: 10px;
+ }
+ audio{
+    width: 250px;
+    
+}
+.card{
+    background-color: #212529!important;
+    border: beige 1px solid;
+
+}
+#cardTag{
+    
+    height: 250px;
+}
+
+hr{
+    transform: rotate(90deg);
+    color: azure;
+}
+h5,div{
+    color:azure;
+}   
+
+/*.nav{
+    margin-bottom: 1%;
+}*/
+p{
+    color: azure;
+    /*margin-left: 1%;*/
+}
+
+/*ul li {
+    color: azure;
+}*/
+th,td,h3,h2,label,button,i,ul li{
+    color: azure;
+}
+
+/* .modal-dialog{
+    background-color: transparent;
+   
+} */
+.modal-content{
+    background-color:#212529;
+    border:  beige 2px solid;
+}
+.ModalContainer{
+    margin-left: 2%;
+   margin-top: 2%;
+}
+.specific{
+    width: 15rem;
+    background-color:#990033;
+    border:white 2px solid;
+    color: white;
+}
+.specific-btn{
+    background-color:#990033;
+    border:white 2px solid;
+    color: white;
+}
+
+/* footer */
+.footer{
+    background-color: #222;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    pad:  70px 0;
+}
+#footer-content{
+    margin-top: 10px;
+}
+#footer-services-heading{
+    margin-top: 4px;
+
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+width: 50%;
+padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 14px;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+.fab{
+    width: 25px;
+}
+
+#icolor{
+    color: rgb(53, 53, 250);
+}

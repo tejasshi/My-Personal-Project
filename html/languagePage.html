@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Page</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/css/bootstrap-select.min.css" integrity="sha512-ARJR74swou2y0Q2V9k0GbzQ/5vJ2RBSoCWokg4zkfM29Fb3vZEQyv0iWBMW/yvKgyHSR/7D64pFMmU8nYmbRkg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/languagePage.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.js" integrity="sha512-zW3wEBCLSIQ6/8E5HhS2x6gq2DSMr/oNVB6O4GtdwE0Nc2/w11di3IfMilwF8OFyg12t4rJ5TegUa7k/hnrTVg==" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.18/js/bootstrap-select.min.js" integrity="sha512-yDlE7vpGDP7o2eftkCiPZ+yuUyEcaBwoJoIhdXv71KZWugFqEphIS3PU60lEkFaz8RxaVsMpSvQxMBaKVwA5xg==" crossorigin="anonymous"></script>
+   <script src="../jquery/scripts/languagePage.js"></script>
+   
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" >
+        <div class="container-fluid">
+            
+            <a href="../html/Home.html"><img src="../images/Planet_Logo.png" id="logoImg" class="img-responsive" style="width: 50px;" alt=""></a>
+            <a href="../html/Home.html" class="navbar-brand" id="logoM">Welcome to PlanetM</a>
+            <button type="button" data-toggle="collapse" data-target="#navbar-menu" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="navbar-nav" id="navigation">
+                    <li><a href="../html/Home.html" class="nav-link">Home</a></li>
+                    <li> <button type="submit" class="btn btn-primary" id="button-profile" onclick="window.location.href='profilepage.html'">Profile</button></li>
+                    
+                   
+                </ul>
+  
+            </div>
+       
+  
+        </div>
+        
+    </nav>
+<form name="myform">
+    
+    <div class="multi_select_box">
+        <label for="language" class="h1" >Choose a Language!</label>
+
+        <select class="multi_select w-100" id="language" name="language" multiple>
+            <option value="english">English</option>
+            <option value="hindi">Hindi</option>
+            <option value="marathi">Marathi</option>
+        </select><br><br><br>
+        
+        <button type="button" class="btn btn-primary " id="btn" >Explore Music</button>
+    </div>
+   
+</form>
+
+   <div class="pic"></div>
+
+   <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <ul class="names" id="footer-content">
+                    <h4>planetM &copy; 2020-2021. All rights reserved</h4>
+                </ul>
+            </div>
+            <div class="footer-col">
+                    <div class="social-links">
+                        <h4 class="" id="footer-services-heading">Follow us</h4>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f" id="icolor"></i></a>
+                        <a href="https://twitter.com/"target="_blank"><i class="fab fa-twitter" id="icolor"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" id="icolor"></i></a>
+                       
+                    </div>
+            </div>
+            
+        </div>
+  
+    </div>
+  </footer>
+
+</body>
+</html>
